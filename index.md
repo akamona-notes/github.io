@@ -11,8 +11,11 @@ Late-diagnosed autistic. No brand to build, nothing to sell. I am just someone w
 ---
 {% endfor %}
 ---
-
 # Notes
 {% for note in site.notes %}
-* [{{ note.title }}]({{ note.url | relative_url }})
+### [{{ note.title }}]({{ note.url | relative_url }})
+*Published on {{ note.date | date: "%d %B %Y" }}*
+
+---
 {% endfor %}
+---
