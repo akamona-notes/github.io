@@ -1,3 +1,8 @@
+---
+title: Note 01
+date: 2026-01-02
+---
+
 # Using AI to organise my writing and thoughts
 I use AI to check my content. I give it strict instructions to check for grammar and punctuation only.
 
